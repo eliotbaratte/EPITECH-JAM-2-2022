@@ -1,0 +1,36 @@
+
+body {
+    background-color: #63c9df;
+}
+
+.header {
+    background: #408897;
+    height: 100px;
+    width: 150%;
+    margin-top: -1.5em;
+    margin-left: -1em;
+    margin-bottom: 50px;
+}
+
+.name {
+    color: #144f5b;
+    margin-left: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+main {
+    background: #8eccd9;
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.pikachu {
+    text-align: center;
+}
