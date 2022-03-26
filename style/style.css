@@ -1,0 +1,17 @@
+header {
+    background-color: blue;
+    margin: -8px;
+}
+
+img {
+    padding: 1em;
+}
+
+div img {
+    border-radius: 6px;
+    border: black solid 6px;
+    
+
+p {
+    font-size: 2em;
+}
