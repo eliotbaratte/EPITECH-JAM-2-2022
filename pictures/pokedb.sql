@@ -148,7 +148,7 @@ INSERT INTO pokemons (id, nom) VALUES
 	(150, 'Mewtwo'),
 	(151, 'Mew');
 
-INSERT INTO types (id, libelle) VALUES 
+INSERT INTO types (id, libelle) VALUES
 	(  1, 'Combat'),
 	(  2, 'Dragon'),
 	(  3, 'Eau'),
