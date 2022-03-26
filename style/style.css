@@ -1,18 +1,24 @@
-header {
-    background-color: blue;
-    margin: -8px;
+.header {
+    border: black solid 0.5em;
+    height: 90px;
+    margin: 0;
+    background : url('img/bandeau-photo.jpg');
+}
+
+.body a {
+    background-color: #241593;
+    text-align: center  ;
+    color: #004dff;
+    float: left;
+    padding: 1em;   
+    border: black solid 6px;
+    border-radius: 6px;
 }
 
 img {
     padding: 1em;
 }
 
-div img {
-    float: left;
-    border-radius: 6px;
-    border: black solid 6px;
-    
-}
 p {
     font-size: 2em;
 }
