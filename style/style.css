@@ -8,10 +8,11 @@ img {
 }
 
 div img {
+    float: left;
     border-radius: 6px;
     border: black solid 6px;
     
-
+}
 p {
     font-size: 2em;
 }
