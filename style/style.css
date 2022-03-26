@@ -10,14 +10,13 @@ body {
     padding: 2em;
     padding-bottom: 3.2em;
     background : url('https://st2.depositphotos.com/1502315/11128/i/950/depositphotos_111283646-stock-photo-dark-blue-texture.jpg.');
-    opacity: 0.8;
     margin: 3em;
     background-color: rgb(0, 26, 255);
 }
 
 .square {
-    max-width: 100%;
     height: 400px;
+    width: 300px;
     background-color: #351ee2;
     text-align: center;
     padding-bottom: 1em;
