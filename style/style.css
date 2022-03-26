@@ -5,7 +5,7 @@
     background : url('img/bandeau-photo.jpg');
 }
 
-.pokemon a {
+.square {
     background-color: #241593;
     text-align: center  ;
     color: #004dff;
