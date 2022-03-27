@@ -1,0 +1,38 @@
+
+body {
+    /* background: blue; */
+    background-image: url("../assets/mer.jpg");
+    /* background: border-box blue; */
+    /* background: repeat-y center/80% url("../assets/Tortank.png"); */
+    margin: 0;
+}
+
+.box {
+    height: 550px;
+    width: 800px;
+    background-color: #351ee2;
+    text-align: center;
+    padding-bottom: 1em;
+    color: rgb(232, 239, 241);
+    float: left;
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    border: rgb(20, 37, 133) solid 6px;
+    border-radius: 6px;
+}
+
+.link {
+    height: 250px;
+    width: 300px;
+    background-color: #351ee2;
+    text-align: center;
+    padding-bottom: 1em;
+    color: rgb(232, 239, 241);
+    float: left;
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    border: rgb(20, 37, 133) solid 6px;
+    border-radius: 6px;
+}
