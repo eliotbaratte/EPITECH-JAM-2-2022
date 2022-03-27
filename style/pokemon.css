@@ -1,14 +1,14 @@
 
 body {
     /* background: blue; */
-    background-image: url("../assets/mer.jpg");
+    background-image: url("../assets/back.png");
     /* background: border-box blue; */
     /* background: repeat-y center/80% url("../assets/Tortank.png"); */
     margin: 0;
 }
 
 .box {
-    height: 550px;
+    height: 650px;
     width: 800px;
     background-color: #351ee2;
     text-align: center;
@@ -35,4 +35,15 @@ body {
     margin-left: 3em;
     border: rgb(20, 37, 133) solid 6px;
     border-radius: 6px;
+}
+
+.header {
+    border: rgb(10, 0, 95) solid 0.4em;
+    border-radius: 1em;
+    height: 90px;
+    padding: 2em;
+    padding-bottom: 3.2em;
+    background : url('https://st2.depositphotos.com/1502315/11128/i/950/depositphotos_111283646-stock-photo-dark-blue-texture.jpg.');
+    margin: 3em;
+    background-color: rgb(0, 26, 255);
 }
