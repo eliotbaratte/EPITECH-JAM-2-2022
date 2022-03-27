@@ -47,3 +47,28 @@ body {
 p {
     font-size: 2em;
 }
+
+#searchbar{
+    margin-left: 8%;
+    padding:15px;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+
+#list{
+    font-size:  1em;
+    margin-left: 70px;
+}
+
+.animals{
+    display: list-item;
+}
