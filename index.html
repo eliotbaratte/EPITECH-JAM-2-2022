@@ -4,145 +4,200 @@
         <meta charset="UTF-8"></meta>
         <title>PokeBlue</title>
         <link rel="stylesheet" href="style/style.css"> </link>
+        
         <link rel="icon" type="image/png" sizes="16x16" href="assets/Squirtle_head.png"> </link>
     </head>
 
     <body>
+        <input id="searchbar" onkeyup="search_pokemon()" type="text"
+        name="search" placeholder="Search Pokemon..">
         <header class="header">
             <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
-            <label for="email"> Rechercher :</label>
-            <input type="text" name="email">
         </header>
-            <div>
-                <a class="square" href="pokemon/carapuce.html"><img src="assets/Carapuce_ball.png" alt="Carapuce">
-                <p>Carapuce - 007</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/carabaffe.html"><img src="assets/Carabaffe_ball.png" alt="Carabaffe">
-                <p>Carabaffe - 008</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/tortank.html"><img src="assets/Tortank-ball.png" alt="Tortank">
-                <p>Tortank - 009</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/nidoran♀.html"><img src="assets/Nidoran_ball.png" alt="Nidoran♀">
-                <p>Nidoran♀ - 029</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/nidorina.html"><img src="assets/Nidorina_ball.png" alt="Nidorina">
-                <p>Nidorina - 030</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/nidoqueen.html"><img src="assets/Nidoqueen_ball.png" alt="Nidoqueen">
-                <p>Nidoqueen - 031</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/mystherbe.html"><img src="assets/Mystherbe_ball.png" alt="Mystherbe">
-                <p>Mystherbe - 043</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/ortide.html"><img src="assets/Ortide_ball.png" alt="Ortide">
-                <p>Ortide - 044</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/akwakwak.html"><img src="assets/Akwakwak_ball.png" alt="Akwakwak">
-                <p>Akwakwak - 055</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/ptitard.html"><img src="assets/Ptitard_ball.png" alt="Ptitard">
-                <p>Ptitard - 060</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/têtarte.html"><img src="assets/Têtarte_ball.png" alt="Têtarte">
-                <p>Têtarte - 061</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/tartard.html"><img src="assets/Tartard_ball.png" alt="Tartard">
-                <p>Tartard - 062</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/tentacool.html"><img src="assets/Tentacool_ball.png" alt="Tentacool">
-                <p>Tentacool - 072</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/tentacruel.html"><img src="assets/Tentacruel_ball.png" alt="Tentacruel">
-                <p>Tentacruel - 073</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/saquedeneu.html"><img src="assets/Saquedeneu_ball.png" alt="Saquedeneu">
-                <p>Saquedeneu - 114</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/hypotrempe.html"><img src="assets/Hypotrempe_ball.png" alt="Hypotrempe">
-                <p>Hypotrempe - 116</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/hypocean.html"><img src="assets/Hypocean_ball.png" alt="Hypocéan">
-                <p>Hypocéan - 117</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/léviator.html"><img src="assets/Léviator_ball.png" alt="Léviator">
-                <p>Léviator - 130</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/lockhlass.html"><img src="assets/Lokhlass_ball.png" alt="Lokhlass">
-                <p>Lokhlass - 131</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/aquali.html"><img src="assets/Aquali_ball.png" alt="Aquali">
-                <p>Aquali - 134</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/amonita.html"><img src="assets/Amonita_ball.png" alt="Amonita">
-                <p>Amonita - 138</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/amonistar.html"><img src="assets/Amonistar_ball.png" alt="Amonistar">
-                <p>Amonistar - 139</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/artikodin.html"><img src="assets/Artikodin_ball.png" alt="Artikodin">
-                <p>Artikodin - 144</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/minidraco.html"><img src="assets/Minidraco_ball.png" alt="Minidraco">
-                <p>Minidraco - 147</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/draco.html"><img src="assets/Draco_ball.png" alt="Draco">
-                <p>Draco - 148</p>
-                </a>
-            </div>
-            <div>
-                <a class="square" href="pokemon/zorotl.html"><img src="assets/Zorotl_ball.png" alt="Zorotl">
-                    <p>Zorotl - ???</p>
-                </a>
-            </div>
-    </div>
+        <ol id='list'>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/carapuce.html"><img src="assets/Carapuce_ball.png" alt="Carapuce">
+                    <p>Carapuce - 007</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/carabaffe.html"><img src="assets/Carabaffe_ball.png" alt="Carabaffe">
+                    <p>Carabaffe - 008</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/tortank.html"><img src="assets/Tortank-ball.png" alt="Tortank">
+                    <p>Tortank - 009</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/nidoran♀.html"><img src="assets/Nidoran_ball.png" alt="Nidoran♀">
+                    <p>Nidoran♀ - 029</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/nidorina.html"><img src="assets/Nidorina_ball.png" alt="Nidorina">
+                    <p>Nidorina - 030</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/nidoqueen.html"><img src="assets/Nidoqueen_ball.png" alt="Nidoqueen">
+                    <p>Nidoqueen - 031</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/mystherbe.html"><img src="assets/Mystherbe_ball.png" alt="Mystherbe">
+                    <p>Mystherbe - 043</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/ortide.html"><img src="assets/Ortide_ball.png" alt="Ortide">
+                    <p>Ortide - 044</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/akwakwak.html"><img src="assets/Akwakwak_ball.png" alt="Akwakwak">
+                    <p>Akwakwak - 055</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/ptitard.html"><img src="assets/Ptitard_ball.png" alt="Ptitard">
+                    <p>Ptitard - 060</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/têtarte.html"><img src="assets/Têtarte_ball.png" alt="Têtarte">
+                    <p>Têtarte - 061</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/tartard.html"><img src="assets/Tartard_ball.png" alt="Tartard">
+                    <p>Tartard - 062</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/tentacool.html"><img src="assets/Tentacool_ball.png" alt="Tentacool">
+                    <p>Tentacool - 072</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/tentacruel.html"><img src="assets/Tentacruel_ball.png" alt="Tentacruel">
+                    <p>Tentacruel - 073</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/saquedeneu.html"><img src="assets/Saquedeneu_ball.png" alt="Saquedeneu">
+                    <p>Saquedeneu - 114</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/hypotrempe.html"><img src="assets/Hypotrempe_ball.png" alt="Hypotrempe">
+                    <p>Hypotrempe - 116</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/hypocean.html"><img src="assets/Hypocean_ball.png" alt="Hypocéan">
+                    <p>Hypocéan - 117</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/léviator.html"><img src="assets/Léviator_ball.png" alt="Léviator">
+                    <p>Léviator - 130</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/lockhlass.html"><img src="assets/Lokhlass_ball.png" alt="Lokhlass">
+                    <p>Lokhlass - 131</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/aquali.html"><img src="assets/Aquali_ball.png" alt="Aquali">
+                    <p>Aquali - 134</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/amonita.html"><img src="assets/Amonita_ball.png" alt="Amonita">
+                    <p>Amonita - 138</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/amonistar.html"><img src="assets/Amonistar_ball.png" alt="Amonistar">
+                    <p>Amonistar - 139</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/artikodin.html"><img src="assets/Artikodin_ball.png" alt="Artikodin">
+                    <p>Artikodin - 144</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/minidraco.html"><img src="assets/Minidraco_ball.png" alt="Minidraco">
+                    <p>Minidraco - 147</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/draco.html"><img src="assets/Draco_ball.png" alt="Draco">
+                    <p>Draco - 148</p>
+                    </a>
+                </div>
+            </li>
+            <li class="pokemon" class="link">
+                <div>
+                    <a class="square" href="pokemon/zorotl.html"><img src="assets/Zorotl_ball.png" alt="Zorotl">
+                        <p>Zorotl - ???</p>
+                    </a>
+                </div>
+            </li>
+        </ol>
+        <script src="pokemon.js"></script>
     </body>
 </html>
