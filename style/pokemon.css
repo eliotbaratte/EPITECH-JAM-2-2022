@@ -16,9 +16,9 @@ body {
     float: left;
     margin: 1em;
     margin-bottom: 2em;
-    margin-left: 3em;
-    border: rgb(20, 37, 133) solid 8px;
-    border-radius: 14px;
+    margin-left: 9em;
+    border: rgb(20, 37, 133) solid 6px;
+    border-radius: 12   px;
 }
 
 .link {
@@ -32,8 +32,8 @@ body {
     margin: 1em;
     margin-bottom: 2em;
     margin-left: 3em;
-    border: rgb(20, 37, 133) solid 8px;
-    border-radius: 14px;
+    border: rgb(20, 37, 133) solid 6px;
+    border-radius: 12px;
 }
 
 .header {

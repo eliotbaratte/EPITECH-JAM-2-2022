@@ -13,7 +13,7 @@ body {
     border-radius: 1em;
     height: 200px;
     padding: 2em;
-    padding-bottom: 3.2em;
+    padding-bottom: -1em;
     background-image: url("../assets/header-background.jpg");
     margin: 3em;
     backdrop-filter: blur(50px);
@@ -31,9 +31,9 @@ body {
     margin: 1em;
     margin-bottom: 5em;
     margin-left: 4.2em;
-    border: rgb(20, 37, 133) solid 8px;
-    border-radius: 14px;
-    background-image:linear-gradient(rgb(0, 255, 255, 0.8   ), rgb(53, 30, 226, 0.8));
+    border: rgb(20, 37, 133) solid 5px;
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(0, 255, 255, 0.9), rgb(53, 30, 226, 0.9));
 }
 
 .animals img {
