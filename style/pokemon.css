@@ -1,40 +1,39 @@
 
 body {
-    /* background: blue; */
     background-image: url("../assets/back.png");
-    /* background: border-box blue; */
     /* background: repeat-y center/80% url("../assets/Tortank.png"); */
     margin: 0;
+    font-family: sans-serif;
 }
 
 .box {
     height: 730px;
     width: 800px;
-    background-color: #351ee2;
+    background-image:linear-gradient(rgb(0, 255, 255), rgb(53, 30, 226));
     text-align: center;
     padding-bottom: 1em;
-    color: rgb(232, 239, 241);
+    color: rgb(11, 4, 49);
     float: left;
     margin: 1em;
     margin-bottom: 2em;
-    margin-left: 3em;
+    margin-left: 9em;
     border: rgb(20, 37, 133) solid 6px;
-    border-radius: 6px;
+    border-radius: 12   px;
 }
 
 .link {
     height: 250px;
     width: 300px;
-    background-color: #351ee2;
+    background-image:linear-gradient(rgb(0, 255, 255), rgb(53, 30, 226));
     text-align: center;
     padding-bottom: 1em;
-    color: rgb(232, 239, 241);
+    color: rgb(11, 4, 49);
     float: left;
     margin: 1em;
     margin-bottom: 2em;
     margin-left: 3em;
     border: rgb(20, 37, 133) solid 6px;
-    border-radius: 6px;
+    border-radius: 12px;
 }
 
 .header {
@@ -46,4 +45,16 @@ body {
     background : url('https://st2.depositphotos.com/1502315/11128/i/950/depositphotos_111283646-stock-photo-dark-blue-texture.jpg.');
     margin: 3em;
     background-color: rgb(0, 26, 255);
+}
+
+.header img {
+    filter: drop-shadow(30px 10px 4px #03033b);
+}
+
+.link img {
+    filter: drop-shadow(10px 10px 5px #03033b);
+}
+
+.box img {
+    filter: drop-shadow(10px 10px 5px #03033b);
 }
